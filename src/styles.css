@@ -1,0 +1,90 @@
+.graphContainer {
+    width: "900px";
+  }
+  
+  @media screen and (max-width: 1211px) {
+    #graphContainer {
+      flex-direction: column;
+    }
+    .home {
+      flex-direction: column-reverse;
+    }
+    .img {
+      width: 823px;
+      height: 400px;
+      margin-left: 114px;
+      margin-right: 114px;
+      left: 100px;
+      position: relative;
+    }
+    #about {
+      width: 992px;
+      position: relative;
+      margin-left: 94px;
+      margin-right: 94px;
+      left: 100px;
+    }
+  }
+  @media screen and (max-width: 1003px) {
+    #searchBar {
+      width: 105px;
+    }
+  }
+  
+  @media screen and (max-width: 930px) {
+    #searchBar {
+      display: none;
+    }
+    #searchIcon {
+      display: none;
+    }
+    .img {
+      width: 652px;
+      margin-left: 46px;
+    }
+    #about {
+      width: 564px;
+      margin-left: 10px;
+    }
+  }
+  @media screen and (max-width: 727px) {
+    #navbar-items {
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 694px) {
+    #navbar-items {
+      font-size: 14px;
+    }
+    #Logo {
+      font-size: 20px;
+    }
+    #graphHeadline {
+      font-size: 1.5rem;
+    }
+    #graphContainer {
+      width: 400px;
+    }
+  }
+  @media screen and (max-width: 1470px) {
+    .img {
+      width: 700px;
+    }
+  }
+  @media screen and (max-width: 1098px) {
+    #about {
+      width: 700px;
+    }
+  }
+  @media screen and (max-width: 846px) {
+    #about {
+      width: 588px;
+      margin-left: 52px;
+      left: 44px;
+    }
+    .img {
+      width: 556px;
+      height: 300px;
+    }
+  }
+  
