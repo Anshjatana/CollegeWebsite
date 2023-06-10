@@ -1,90 +1,129 @@
 .graphContainer {
-    width: "900px";
+  width: "900px";
+}
+
+@media screen and (max-width: 1211px) {
+  #graphContainer {
+    flex-direction: column;
   }
-  
-  @media screen and (max-width: 1211px) {
-    #graphContainer {
-      flex-direction: column;
-    }
-    .home {
-      flex-direction: column-reverse;
-    }
-    .img {
-      width: 823px;
-      height: 400px;
-      margin-left: 114px;
-      margin-right: 114px;
-      left: 100px;
-      position: relative;
-    }
-    #about {
-      width: 992px;
-      position: relative;
-      margin-left: 94px;
-      margin-right: 94px;
-      left: 100px;
-    }
+  .home {
+    flex-direction: column-reverse;
   }
-  @media screen and (max-width: 1003px) {
-    #searchBar {
-      width: 105px;
-    }
+  .img {
+    width: 823px;
+    height: 400px;
+    margin-left: 114px;
+    margin-right: 114px;
+    left: 100px;
+    position: relative;
   }
-  
-  @media screen and (max-width: 930px) {
-    #searchBar {
-      display: none;
-    }
-    #searchIcon {
-      display: none;
-    }
-    .img {
-      width: 652px;
-      margin-left: 46px;
-    }
-    #about {
-      width: 564px;
-      margin-left: 10px;
-    }
+  #about {
+    width: 992px;
+    position: relative;
+    margin-left: 94px;
+    margin-right: 94px;
+    left: 100px;
   }
-  @media screen and (max-width: 727px) {
-    #navbar-items {
-      font-size: 1rem;
-    }
+}
+@media screen and (max-width: 1003px) {
+  #searchBar {
+    width: 105px;
   }
-  @media screen and (max-width: 694px) {
-    #navbar-items {
-      font-size: 14px;
-    }
-    #Logo {
-      font-size: 20px;
-    }
-    #graphHeadline {
-      font-size: 1.5rem;
-    }
-    #graphContainer {
-      width: 400px;
-    }
+}
+
+@media screen and (max-width: 930px) {
+  #searchBar {
+    display: none;
   }
-  @media screen and (max-width: 1470px) {
-    .img {
-      width: 700px;
-    }
+  #searchIcon {
+    display: none;
   }
-  @media screen and (max-width: 1098px) {
-    #about {
-      width: 700px;
-    }
+  .img {
+    width: 652px;
+    margin-left: 46px;
   }
-  @media screen and (max-width: 846px) {
-    #about {
-      width: 588px;
-      margin-left: 52px;
-      left: 44px;
-    }
-    .img {
-      width: 556px;
-      height: 300px;
-    }
+  #about {
+    width: 564px;
+    margin-left: 10px;
   }
+}
+@media screen and (max-width: 727px) {
+  #navbar-items {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 694px) {
+  #navbar-items {
+    font-size: 14px;
+  }
+  #Logo {
+    font-size: 20px;
+  }
+  #graphHeadline {
+    font-size: 1.5rem;
+  }
+  #graphContainer {
+    width: 595px;
+  }
+  #about{
+    left: 20px;
+    margin-left: 16px;
+    width: 571px;
+  }
+  .img{
+    left:24px
+  }
+  #table{
+    font-size: 17px;
+    width: 498px;
+    height: 554px;
+  }
+  #card{
+    width: 346px;
+    height: 339px;
+    margin: 1.5rem;
+  }
+  #about h1{
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1470px) {
+  .img {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 1098px) {
+  #about {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 846px) {
+  #about {
+    width: 588px;
+    margin-left: 52px;
+    left: 44px;
+  }
+  .img {
+    width: 556px;
+    height: 300px;
+  }
+}
+@media screen  and (max-width:570px){
+  #about{
+    left: 9px;
+    margin-left: 2px;
+    width: 449px;
+  }
+  .img {
+    height: 250px;
+    width: 444px;
+    margin-left: 29px;
+}
+#navbar-items{
+  padding: 0;
+}
+#logo{
+  font-size: 17px;
+}
+}
   
