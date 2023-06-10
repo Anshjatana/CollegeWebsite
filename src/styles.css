@@ -109,11 +109,11 @@
   }
 }
 @media screen  and (max-width:570px){
-  #about{
-    left: 9px;
-    margin-left: 2px;
-    width: 449px;
-  }
+  #about {
+    width: 383px;
+    margin-left: 0px;
+    left: 18px;
+}
   .img {
     height: 250px;
     width: 444px;
@@ -124,6 +124,22 @@
 }
 #logo{
   font-size: 17px;
+}
+#about h1{
+  width: 400px;
+}
+}
+@media screen and (max-width:650px) {
+  #about {
+    width: 557px;
+    margin-left: 11px;
+    left: 29px;
+}
+#Logo {
+  font-size: 17px;
+}
+#about h1 {
+  font-size: 29px;
 }
 }
   
