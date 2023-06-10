@@ -118,6 +118,7 @@
     height: 250px;
     width: 444px;
     margin-left: 29px;
+    margin-right: 20px;
 }
 #navbar-items{
   padding: 0;
@@ -126,8 +127,9 @@
   font-size: 17px;
 }
 #about h1{
-  width: 400px;
+  width: 427px;
 }
+
 }
 @media screen and (max-width:650px) {
   #about {
@@ -140,6 +142,20 @@
 }
 #about h1 {
   font-size: 29px;
+}
+}
+@media screen and (max-width:608px){
+  #about {
+    width: 543px;
+    margin-left: 0px;
+    left: 5px;
+    font-size: 20px;
+}
+.img{
+  margin-left: 9px;
+}
+#about h1{
+  width: 557px;
 }
 }
   
