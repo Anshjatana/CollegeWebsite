@@ -2,13 +2,15 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col  bg-[#caccce] ">
+    <div className="flex flex-col bg-[#ececec]">
       <div className=" mb-5 mt-5 ml-10 ">
         <div className="flex flex-col  ">
           <div>
             <ul className="flex text-2xl">
               <li className=" font-small text-xl text-black ">Home</li>
-              <li className="font-small text-xl ml-4 text-[#000000] ">Admissions</li>
+              <li className="font-small text-xl ml-4 text-[#000000] ">
+                Admissions
+              </li>
               <li className=" font-small text-xl ml-4 text-[#000000]">
                 Gallery
               </li>

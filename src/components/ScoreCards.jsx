@@ -6,7 +6,10 @@ export default function ScoreCards(props) {
       <h1 className="text-3xl text-white font-bold pt-4">
         SCORECARD OF: {props.studentName}
       </h1>
-      <div className="flex items-center justify-center flex-col bg-[#caccce] h-[350px] w-[400px] m-6 p-10 rounded-xl">
+      <div
+        id="cardDiv"
+        className="flex items-center justify-center flex-col bg-[#ececec] h-[350px] w-[400px] m-6 p-10 rounded-xl"
+      >
         <img
           src={props.imgURL}
           alt="img"

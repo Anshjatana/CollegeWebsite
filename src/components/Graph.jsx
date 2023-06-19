@@ -18,9 +18,13 @@ export default function Section1() {
       },
     ],
   });
+  const divStyle = {
+    background: 'linear-gradient(0deg, rgba(8,26,89,1) 0%, rgba(0,0,0,1) 100%)'
+
+  };
 
   return (
-    <div className="bg-[#010a1c] flex flex-col items-center justify-center text-white pb-10 w-full h-auto ">
+    <div style={divStyle} className=" flex flex-col items-center justify-center text-white pb-10 w-full h-auto ">
       <div
         className="font-bold font-sans text-4xl  pb-12 pt-10"
         id="graphHeadline"
@@ -32,13 +36,13 @@ export default function Section1() {
           options={state.options}
           series={state.series}
           type="bar"
-          width="600"
+          width="450"
         />
         <Chart
           options={state.options}
           series={state.series}
           type="line"
-          width="600"
+          width="450"
         />
       </div>
       <h5 className="text-xl font-sans mb-10 ">
