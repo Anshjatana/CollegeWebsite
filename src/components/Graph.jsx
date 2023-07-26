@@ -19,8 +19,7 @@ export default function Section1() {
     ],
   });
   const divStyle = {
-    background: 'linear-gradient(0deg, rgba(8,26,89,1) 0%, rgba(0,0,0,1) 100%)'
-
+    background: 'linear-gradient(0deg, rgba(8,26,89,1) 0%, rgba(0,0,0,1) 100%)' 
   };
 
   return (
