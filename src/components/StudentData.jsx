@@ -1,10 +1,9 @@
 import React from "react";
 import StudentTable from "./StudentTable";
 
-export default function StudentData(props) {
-  const { filterPass, filterValue } = props;
-
-  // Filter the student data based on the filterPass and filterValue
+export default function StudentData({ filterPass, filterValue }) {
+  
+  // Filtered the student data based on the filterPass and filterValue
   const filteredData = StudentTable.filter((stuData) => {
     if (
       (!filterPass || (filterPass && filterPass === stuData.Pass)) &&
